@@ -70,6 +70,7 @@
     .main img {
       max-width: 100%;
       height: auto;
+      border-radius: 10px;
     }
     .footer {
       padding: 20px;
@@ -77,6 +78,31 @@
       background: #333;
       color: #fff;
       text-align: center;
+    }
+    .contact-info {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .contact-info p {
+      margin: 10px 0;
+    }
+    .research {
+      margin-top: 20px;
+    }
+    .research h2 {
+      margin-bottom: 10px;
+    }
+    .research p {
+      margin: 10px 0;
+    }
+    .campus-life {
+      margin-top: 20px;
+    }
+    .campus-life h2 {
+      margin-bottom: 10px;
+    }
+    .campus-life p {
+      margin: 10px 0;
     }
   </style>
 </head>
@@ -88,20 +114,64 @@
       </div>
       <nav>
         <ul>
-          <li class="current"><a href="#">主页</a></li>
-          <li><a href="#">关于我</a></li>
-          <li><a href="#">项目</a></li>
-          <li><a href="#">联系我</a></li>
+          <li class="current"><a href="#home">主页</a></li>
+          <li><a href="#about">关于我</a></li>
+          <li><a href="#research">研究方向</a></li>
+          <li><a href="#campus-life">校园生活</a></li>
+          <li><a href="#contact">联系我</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <div class="main">
+  <div class="main" id="home">
     <div class="container">
       <h1>欢迎来到我的个人网站</h1>
-      <p>你好，我是席寒。这里是我的个人网站，我会在这里分享我的学习和生活。</p>
-      <img src="your-photo.jpg" alt="席寒">
+      <p>你好，我是席寒，目前就读于华中农业大学。这里是我的个人网站，我会在这里分享我的学习和生活。</p>
+    </div>
+  </div>
+
+  <div class="main" id="about">
+    <div class="container">
+      <h2>关于我</h2>
+      <p>我叫席寒，目前是华中农业大学的一名学生。我对科学研究充满热情，尤其是对改性生物炭的老化研究。在校园里，我积极参与各种学术活动和社团，努力提升自己的综合素质。</p>
+      <p>除了学术研究，我还喜欢阅读、运动和旅行。这些爱好让我在紧张的学习之余，能够放松身心，拓宽视野。</p>
+    </div>
+  </div>
+
+  <div class="main" id="research">
+    <div class="container">
+      <h2>研究方向：改性生物炭的老化</h2>
+      <p>我的研究方向是改性生物炭的老化。生物炭是一种具有高比表面积和丰富孔隙结构的碳材料，广泛应用于土壤改良、环境修复等领域。改性生物炭通过物理或化学方法对其进行处理，可以进一步提高其性能。</p>
+      <p>老化是生物炭在长期使用过程中不可避免的现象，它会影响生物炭的性能和应用效果。我的研究主要集中在以下几个方面：</p>
+      <ul>
+        <li>生物炭老化的机理研究</li>
+        <li>改性方法对生物炭老化的影响</li>
+        <li>老化生物炭的再利用研究</li>
+      </ul>
+      <p>通过这些研究，我希望为生物炭的高效应用提供理论支持和技术指导。</p>
+    </div>
+  </div>
+
+  <div class="main" id="campus-life">
+    <div class="container">
+      <h2>我的校园生活</h2>
+      <p>在华中农业大学，我的生活丰富多彩。除了日常的学习和研究，我还积极参与各种社团活动。例如，我加入了学校的环保社团，参与组织了多次校园环保活动，宣传环保知识，倡导绿色生活方式。</p>
+      <p>我还参加了学校的科研社团，与同学们一起交流学术心得，分享研究经验。这些活动不仅让我结识了许多志同道合的朋友，也让我在实践中不断提升自己的能力。</p>
+      <p>在课余时间，我还会去图书馆阅读各种书籍，拓宽自己的知识面。华中农业大学的图书馆藏书丰富，是我学习的好去处。</p>
+      <p>此外，我还喜欢在校园里散步，欣赏美丽的校园风景。华中农业大学的校园环境优美，四季景色各异，让我在学习之余能够放松心情。</p>
+    </div>
+  </div>
+
+  <div class="main" id="contact">
+    <div class="container">
+      <h2>联系我</h2>
+      <div class="contact-info">
+        <p><strong>姓名：</strong>席寒</p>
+        <p><strong>邮箱：</strong><a href="mailto:2810082667@qq.com">2810082667@qq.com</a></p>
+        <p><strong>电话：</strong><a href="tel:15207116435">15207116435</a></p>
+        <p><strong>学校：</strong>华中农业大学</p>
+      </div>
     </div>
   </div>
 
